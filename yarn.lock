@@ -3621,11 +3621,6 @@ cross-spawn@^7.0.0, cross-spawn@^7.0.2, cross-spawn@^7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-crypto-js@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-4.2.0.tgz#4d931639ecdfd12ff80e8186dba6af2c2e856631"
-  integrity sha512-KALDyEYgpY+Rlob/iriUtjV6d5Eq+Y191A5g4UqLAi8CyGP9N1+FdVbkc1SxKc2r4YAYqG8JzO2KGL+AizD70Q==
-
 crypto-random-string@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-2.0.0.tgz#ef2a7a966ec11083388369baa02ebead229b30d5"
@@ -5402,11 +5397,6 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-jwt-decode@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/jwt-decode/-/jwt-decode-3.1.2.tgz#3fb319f3675a2df0c2895c8f5e9fa4b67b04ed59"
-  integrity sha512-UfpWE/VZn0iP50d8cz9NrZLM9lSWhcJ+0Gt/nm4by88UL+J1SiKN8/5dkjMmbEzwL2CAe+67GsegCbIKtbp75A==
-
 keycloakify@^9.6.3:
   version "9.6.3"
   resolved "https://registry.yarnpkg.com/keycloakify/-/keycloakify-9.6.3.tgz#0b6b6dda6a41e5c0e2ce84de73d6459e8ddf2d2e"
@@ -6005,22 +5995,10 @@ ohash@^1.1.3:
   resolved "https://registry.yarnpkg.com/ohash/-/ohash-1.1.3.tgz#f12c3c50bfe7271ce3fd1097d42568122ccdcf07"
   integrity sha512-zuHHiGTYTA1sYJ/wZN+t5HKZaH23i4yI1HMwbuXm24Nid7Dv0KcuRlKoNKS9UNfAVSBlnGLcuQrnOKWOZoEGaw==
 
-oidc-client-ts@2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/oidc-client-ts/-/oidc-client-ts-2.4.0.tgz#764c8a33de542026e2798de9849ce8049047d7e5"
-  integrity sha512-WijhkTrlXK2VvgGoakWJiBdfIsVGz6CFzgjNNqZU1hPKV2kyeEaJgLs7RwuiSp2WhLfWBQuLvr2SxVlZnk3N1w==
-  dependencies:
-    crypto-js "^4.2.0"
-    jwt-decode "^3.1.2"
-
 oidc-spa@^4.2.1:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/oidc-spa/-/oidc-spa-4.2.1.tgz#1b33214fd4b657f7a09aae70058df76ce7275a8e"
-  integrity sha512-2Vm3Ohrh+F6Xd+HfybBs20ahQmJf3w852G20hnOl80O7G8wQ2IBKuivVEU/gb2hg4O3X9h4uQr4fuhIMO0/dFA==
-  dependencies:
-    jwt-decode "^3.1.2"
-    oidc-client-ts "2.4.0"
-    tsafe "^1.6.5"
+  version "4.14.5"
+  resolved "https://registry.yarnpkg.com/oidc-spa/-/oidc-spa-4.14.5.tgz#4b30276dad547947ba61bcc0cca9e1118bbb4d49"
+  integrity sha512-GnZu4H+jy/5nU6n6amcAQ21+eNHoxY3CsrlYmaC6Fc/VFPO/f5kmyQ+DuiLF1B69DE7uLFE+Sn11ZEhTssqp1w==
 
 on-finished@2.4.1:
   version "2.4.1"
@@ -7303,7 +7281,7 @@ ts-dedent@^2.0.0, ts-dedent@^2.2.0:
   resolved "https://registry.yarnpkg.com/ts-dedent/-/ts-dedent-2.2.0.tgz#39e4bd297cd036292ae2394eb3412be63f563bb5"
   integrity sha512-q5W7tVM71e2xjHZTlgfTDoPF/SmqKG5hddq9SzR49CH2hayqRKJtQ4mtRlSxKaJlR/+9rEM+mnBHf7I2/BQcpQ==
 
-tsafe@^1.6.0, tsafe@^1.6.5, tsafe@^1.6.6:
+tsafe@^1.6.0, tsafe@^1.6.6:
   version "1.6.6"
   resolved "https://registry.yarnpkg.com/tsafe/-/tsafe-1.6.6.tgz#fd93e64d6eb13ef83ed1650669cc24bad4f5df9f"
   integrity sha512-gzkapsdbMNwBnTIjgO758GujLCj031IgHK/PKr2mrmkCSJMhSOR5FeOuSxKLMUoYc0vAA4RGEYYbjt/v6afD3g==
