@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
+    - uses: actions/setup-node@v4
     - uses: bahmutov/npm-install@v1
     - run: yarn build
     - run: npx keycloakify
@@ -41,7 +41,7 @@ jobs:
     if: needs.check_if_version_upgraded.outputs.is_upgraded_version == 'true' && github.event_name == 'push'
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
+    - uses: actions/setup-node@v4
     - uses: bahmutov/npm-install@v1
     - run: yarn build
     - run: npx keycloakify
@@ -94,7 +94,7 @@ jobs:
       - create_github_release
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
+    - uses: actions/setup-node@v4
     - uses: bahmutov/npm-install@v1
     - run: yarn build
     # We tell GitHub pages that our package.json["homepage"] field is our domain name.  
@@ -104,6 +104,6 @@ jobs:
     - run: git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${{github.repository}}.git
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - uses: actions/setup-node@v3.6.0
+    - uses: actions/setup-node@v4.2.0
     - run: npx -y -p gh-pages@3.0.0 gh-pages -u "github-actions-bot <actions@github.com>" -d dist 
  
