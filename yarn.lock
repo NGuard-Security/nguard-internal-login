@@ -1857,11 +1857,11 @@
     ts-dedent "^2.2.0"
 
 "@storybook/addon-links@^8.0.2":
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-8.0.2.tgz#4117189e92c5f2ea2162dea2b19d4057147f9a40"
-  integrity sha512-Y22kCHRQIEE8yhTbWLTR2VMa9KJdMDRpWyYCIMzmTlCWAk1vyMZXC2ERruKIpM7AKKtTMEmNc2qHAmOieHfr3A==
+  version "8.5.6"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-8.5.6.tgz#a21ca16f84c8e915aafbd2597a5bcaf09c677a04"
+  integrity sha512-srJRVows/5s257jPlkZFDxyuuBluGW1lWfaUoo3ls3jYx2ZP1v2ilZHh9WB3o2zcZQit4afX2FAK52s/ZwRB3w==
   dependencies:
-    "@storybook/csf" "^0.1.2"
+    "@storybook/csf" "0.1.12"
     "@storybook/global" "^5.0.0"
     ts-dedent "^2.0.0"
 
@@ -2179,6 +2179,13 @@
     fs-extra "^11.1.0"
     recast "^0.23.5"
     ts-dedent "^2.0.0"
+
+"@storybook/csf@0.1.12":
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@storybook/csf/-/csf-0.1.12.tgz#1dcfa0f398a69b834c563884b5f747db3d5a81df"
+  integrity sha512-9/exVhabisyIVL0VxTCxo01Tdm8wefIXKXfltAPTSr8cbLn5JAxGQ6QV3mjdecLGEOucfoVhAKtJfVHxEK1iqw==
+  dependencies:
+    type-fest "^2.19.0"
 
 "@storybook/csf@^0.0.1":
   version "0.0.1"
