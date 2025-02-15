@@ -1874,9 +1874,9 @@
     tiny-invariant "^1.3.1"
 
 "@storybook/addon-onboarding@^8.0.2":
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-onboarding/-/addon-onboarding-8.0.2.tgz#deb7f9d7fff6c9403d10a688459de6cb744b49d1"
-  integrity sha512-wwNYl1FYodZAhVlWiisAFmMMiUaCO8E8DBhHPNGMZP2tsVzeLPly2/k6X31Jc6hdG8YhZVJdXFX2tDcBxHtzoA==
+  version "8.5.6"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-onboarding/-/addon-onboarding-8.5.6.tgz#50d71fdef3273e2b812c6838f368595bb4542764"
+  integrity sha512-4+4vevM+pKua6A0FqQhoHOHcrtUsa2PSmdsAHhi6I2QQEFpvK3QtRyK0qhyft2cap9Wf6h/M+HBXEHbiJQCS3A==
 
 "@storybook/addon-outline@8.0.2":
   version "8.0.2"
